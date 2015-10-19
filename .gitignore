@@ -1,0 +1,5 @@
+build/
+dist/
+lib/Bindings.chi
+lib/Bindings.hs
+lib/Bindings.chs.h
