@@ -1,11 +1,11 @@
 {-# LANGUAGE TemplateHaskell, QuasiQuotes #-}
 
-import Bindings
-import QQ
+import PGParseCheck.Bindings as B
+import PGParseCheck.QQ
 import Control.Exception (assert)
 
 main = do
-    Bindings.initParser
+    B.initParser
     o <- parseQuery "select * from hello"
     let r = assert ((success o) == 1) "unexpected parse error for OK query."
     print ("OK", r)

@@ -1,8 +1,8 @@
-module QQ (psql) where
+module PGParseCheck.QQ (psql) where
 
 import qualified Language.Haskell.TH as TH
 import Language.Haskell.TH.Quote
-import qualified Bindings as B
+import qualified PGParseCheck.Bindings as B
 
 psql :: QuasiQuoter
 psql = QuasiQuoter

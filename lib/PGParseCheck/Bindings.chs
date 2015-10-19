@@ -1,4 +1,4 @@
-module Bindings
+module PGParseCheck.Bindings
        ( ParseResult(..)
        , parseQuery
        , initParser

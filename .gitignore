@@ -1,5 +1,5 @@
 build/
 dist/
-lib/Bindings.chi
-lib/Bindings.hs
-lib/Bindings.chs.h
+lib/PGParseCheck/Bindings.chi
+lib/PGParseCheck/Bindings.hs
+lib/PGParseCheck/Bindings.chs.h
